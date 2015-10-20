@@ -1,0 +1,37 @@
+package com.as.cs.exercises;
+
+
+
+public class Quiz_grades {
+      
+
+	private int quizscore=0;
+	private int midtermscore=0;
+	private int finalscores=0;
+	
+	
+	
+	public int getquizscore(){
+		return quizscore;
+	}
+	public void setquizscore(int quizscore){
+	this.quizscore=quizscore;
+	}
+	public int getmidtermscore(){
+		return midtermscore;
+	}
+	public void setmidtermscore(int midtermscore){
+	this.midtermscore=midtermscore;
+	}
+
+	public int getfinalscores(){
+		return finalscores;
+	}
+	public void setfinalscores(int finalscores){
+		
+	}
+
+}
+    	
+
+

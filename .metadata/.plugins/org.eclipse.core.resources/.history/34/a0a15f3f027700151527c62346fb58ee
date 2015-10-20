@@ -1,0 +1,36 @@
+package com.as.cs.exercises;
+
+public class Switch_Statement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		char grade ='C';
+		
+		switch(grade)
+		{
+		case 'A':
+		   System.out.println("  really? did not expect that");
+		   break;
+		case 'B':
+			System.out.println("  its good... but its not quite Carling");
+			break;
+		case 'C':
+		case 'D':	
+		    System.out.println("  you dissapoint me");
+		    break;
+		case 'F':
+			System.out.println("  you have brought great shame upon our family");
+			break;
+		default:
+			System.out.println("  Im sorry, but your grade is invalid");  		
+		}
+		System.out.println("  your gade is  " +grade);
+	   }	
+		
+		
+		
+	}
+

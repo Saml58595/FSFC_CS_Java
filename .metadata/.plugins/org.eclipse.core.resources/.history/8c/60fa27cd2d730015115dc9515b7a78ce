@@ -1,0 +1,33 @@
+package com.as.cs.exercises;
+
+public class If_and_Loops {
+
+	public static void main(String[] args) {
+		int x =10;
+		
+		if(x==15){
+			System.out.print("Value of X is 15");
+		}else if(x==20){
+			System.out.print("Value of X is 20");
+		}else if(x==25){
+			System.out.print("Value of X is 25");
+		}else{
+			System.out.print("This is else statement");
+			
+			
+		
+
+			int x1=50;
+			int y=30;
+			
+			if(x1==30){
+				if(y==10){
+					System.out.print("X=30 and Y=10");
+				}	
+			
+			}
+			
+			}
+		}
+    
+}
